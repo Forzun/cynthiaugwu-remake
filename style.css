@@ -1,0 +1,289 @@
+@font-face {
+    font-family: General ;
+    src: url("/font/GeneralSans-Medium.otf");
+}
+
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family:"General";
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%; 
+}
+
+#minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+    width: 10px;
+    height: 10px; 
+    background-color: #fff;
+    position: absolute; 
+    z-index: 9999; 
+    border-radius: 50%;
+}
+
+#main{
+    width: 100%;
+    background-color: black;
+}
+
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
+
+#hero{
+    position: relative ;
+    color:#fff; 
+    width: 100%;
+    height: 100vh;
+    background-color:black; 
+}
+
+#nav{
+    color: white; 
+    width: 100%;
+    padding: 20px 40px; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+#nav a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+#heading{
+    margin: 90px 0px;
+}
+
+#heading h1{
+    margin-left: 30px; 
+    opacity:.6;
+    line-height: 1;
+    font-size:9vw;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+#heading #second-h1{
+    margin-left: 140px;
+}
+
+.blocktext{
+    display: flex; 
+    flex-direction: column; 
+    align-items: end;
+    width: fit-content;
+}
+
+.blocktext h5{
+    font-weight: 500;
+    opacity: .85;
+    text-align: right;
+}
+
+#small-heading{
+    display: flex; 
+    flex-direction: column;
+    align-items: end; 
+    margin-top: 170px;
+    padding-right: 40px; 
+    line-height: 1;
+
+}
+
+#small-heading h5{
+    opacity: .87;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: .5vw; 
+    text-align: right;
+    font-size: 1.2vw;
+}
+
+#herofooter{
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herofooter a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff; 
+
+}
+
+#herofooter #iconset{
+    display: flex; 
+    gap:6px;
+}
+
+#herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888;
+}
+
+#second{
+    padding-right: 10vw;
+    padding-top: 200px;
+    color: #fff; 
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.elem{
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4vw 1vw;
+    padding-right: 0px;
+    border-top:1px solid #888;
+}
+
+.elem h1{ 
+    text-transform: uppercase;
+    opacity: .7;
+    font-size: 7.8vw;
+    font-weight: 500;
+}
+
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+
+.elem h5{
+    opacity: .7;
+}
+
+.elem img{
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#about{
+    display: flex;  
+    align-items: center;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    gap: 50px;
+    color: #888; 
+    width: fit-content;
+
+}
+
+#imageabout img{
+    align-items: center;
+    width: 200px; 
+    border-radius: 50%;
+    margin-top: 22vw;
+}
+
+#textabout{
+    width: 25rem;
+    margin-top: 25vw;
+}
+
+#textabout h5{
+    text-transform: uppercase; 
+    opacity: .6;
+    margin-top: 30px; 
+}
+
+#textabout p{
+    color:#fff;
+    margin-bottom: 30px;
+}
+
+#textabout a{
+    text-decoration: none;
+    color: #fff; 
+    border: 1px solid #fff; 
+    border-radius: 100px;
+    padding: 8.5px 25px;  
+    font-size: 14px;
+}
+
+
+#subscribe{
+    color: #fff;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+}
+
+#subscribe h5{ 
+    opacity: .6;
+}
+
+#subscribe h3{
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+#footer{
+    color: #fff; 
+    background-color: black; 
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+#footerleft{
+    display: flex; 
+    gap: 20px;
+}
+
+#footerright{
+    display: flex; 
+    gap: 30px;
+
+}
+
+#footer a{
+    color:#fff;
+    font-size: 14px; 
+    font-weight: 500;
+    text-decoration: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
